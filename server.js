@@ -24,7 +24,7 @@ app.use(express.static('public'));
 
 //Heroku will tell us what port we need to bind to via a environment variable
 //app.listen(3000, function () { 
-app.listen(port, function () { 
-	console.log('Express server is up on port ' + port);
+app.listen(PORT, function () { 
+	console.log('Express server is up on port ' + PORT);
 });
 
